@@ -11,10 +11,10 @@ class Student_details:
         print(f"Gender: {self.gender}")
         print(f"Course: {self.course}")
 
-student1 = Student_details('OKOLIMO Joseph', 'M23B13/008', 'Male', 'BSIT')
-student2 = Student_details('LUBONGE Marvin', 'M23B13/034', 'Male', 'Medicine and Surgery')
-student3 = Student_details('SHILPAH Sing', 'M23B14/012', 'Female', 'Computer Systems')
+student1 = Student_details('OKOLIMO Joseph', 'M23B13/008', 'Male', 'BSIT\n')
+student2 = Student_details('LUBONGE Marvin', 'M23B13/034', 'Male', 'Medicine and Surgery\n')
+student3 = Student_details('SHILPAH Sing', 'M23B14/012', 'Female', 'Computer Systems\n')
 
 student1.student_info()
-# student2.student_info()
-# student3.student_info()
+student2.student_info()
+student3.student_info()
